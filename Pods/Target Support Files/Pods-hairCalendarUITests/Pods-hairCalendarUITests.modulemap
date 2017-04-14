@@ -1,0 +1,6 @@
+framework module Pods_hairCalendarUITests {
+  umbrella header "Pods-hairCalendarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,6 +15,10 @@
 		0402A3741E9FF0B400A9A782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0402A3721E9FF0B400A9A782 /* LaunchScreen.storyboard */; };
 		0402A37F1E9FF0B400A9A782 /* hairCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0402A37E1E9FF0B400A9A782 /* hairCalendarTests.swift */; };
 		0402A38A1E9FF0B400A9A782 /* hairCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0402A3891E9FF0B400A9A782 /* hairCalendarUITests.swift */; };
+		0402A39A1E9FF59300A9A782 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0402A3991E9FF59300A9A782 /* CustomCell.swift */; };
+		189BF49842DD399E4799156D /* Pods_hairCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B6A3E8AF42AECEF97D8006 /* Pods_hairCalendar.framework */; };
+		56AC505B7594F90D4A8ADE3A /* Pods_hairCalendarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12EF714458EC746900815DD /* Pods_hairCalendarTests.framework */; };
+		CE246627C5E3304CBAE18A82 /* Pods_hairCalendarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D80EF1DC2755FDF2F1B29FC /* Pods_hairCalendarUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,16 @@
 		0402A3851E9FF0B400A9A782 /* hairCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hairCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0402A3891E9FF0B400A9A782 /* hairCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hairCalendarUITests.swift; sourceTree = "<group>"; };
 		0402A38B1E9FF0B400A9A782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0402A3991E9FF59300A9A782 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2FD4CF73B635ED77BBA3E306 /* Pods-hairCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hairCalendar/Pods-hairCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		5D80EF1DC2755FDF2F1B29FC /* Pods_hairCalendarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hairCalendarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D89FDDC838CFDB34A5BD7E2 /* Pods-hairCalendarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairCalendarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hairCalendarUITests/Pods-hairCalendarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9151E1B4EB649BA1E6427737 /* Pods-hairCalendarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairCalendarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hairCalendarUITests/Pods-hairCalendarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DBCDB2D02EFCE395C9EFB10 /* Pods-hairCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairCalendarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hairCalendarTests/Pods-hairCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
+		B12EF714458EC746900815DD /* Pods_hairCalendarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hairCalendarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B6A3E8AF42AECEF97D8006 /* Pods_hairCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hairCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6082B9DDADFD70B34A2332F /* Pods-hairCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-hairCalendar/Pods-hairCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		CED0A4F4DF3ECA17876163B8 /* Pods-hairCalendarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hairCalendarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hairCalendarTests/Pods-hairCalendarTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189BF49842DD399E4799156D /* Pods_hairCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56AC505B7594F90D4A8ADE3A /* Pods_hairCalendarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE246627C5E3304CBAE18A82 /* Pods_hairCalendarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				0402A37D1E9FF0B400A9A782 /* hairCalendarTests */,
 				0402A3881E9FF0B400A9A782 /* hairCalendarUITests */,
 				0402A3641E9FF0B400A9A782 /* Products */,
+				535A5AAE7F08E40163CAF2D6 /* Pods */,
+				DCE0BBB2141A719B1D323BCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +125,7 @@
 				0402A3721E9FF0B400A9A782 /* LaunchScreen.storyboard */,
 				0402A3751E9FF0B400A9A782 /* Info.plist */,
 				0402A36D1E9FF0B400A9A782 /* hairCalendar.xcdatamodeld */,
+				0402A3991E9FF59300A9A782 /* CustomCell.swift */,
 			);
 			path = hairCalendar;
 			sourceTree = "<group>";
@@ -128,6 +148,29 @@
 			path = hairCalendarUITests;
 			sourceTree = "<group>";
 		};
+		535A5AAE7F08E40163CAF2D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FD4CF73B635ED77BBA3E306 /* Pods-hairCalendar.debug.xcconfig */,
+				C6082B9DDADFD70B34A2332F /* Pods-hairCalendar.release.xcconfig */,
+				CED0A4F4DF3ECA17876163B8 /* Pods-hairCalendarTests.debug.xcconfig */,
+				9DBCDB2D02EFCE395C9EFB10 /* Pods-hairCalendarTests.release.xcconfig */,
+				9151E1B4EB649BA1E6427737 /* Pods-hairCalendarUITests.debug.xcconfig */,
+				5D89FDDC838CFDB34A5BD7E2 /* Pods-hairCalendarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCE0BBB2141A719B1D323BCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4B6A3E8AF42AECEF97D8006 /* Pods_hairCalendar.framework */,
+				B12EF714458EC746900815DD /* Pods_hairCalendarTests.framework */,
+				5D80EF1DC2755FDF2F1B29FC /* Pods_hairCalendarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0402A38E1E9FF0B400A9A782 /* Build configuration list for PBXNativeTarget "hairCalendar" */;
 			buildPhases = (
+				B6348219187B28C00E38A26F /* [CP] Check Pods Manifest.lock */,
 				0402A35F1E9FF0B400A9A782 /* Sources */,
 				0402A3601E9FF0B400A9A782 /* Frameworks */,
 				0402A3611E9FF0B400A9A782 /* Resources */,
+				29DB74A45B2E03400C6CD094 /* [CP] Embed Pods Frameworks */,
+				DD980DD6EA651308BDA0832F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0402A3911E9FF0B400A9A782 /* Build configuration list for PBXNativeTarget "hairCalendarTests" */;
 			buildPhases = (
+				31FCE6BAD16B0F737C88C75D /* [CP] Check Pods Manifest.lock */,
 				0402A3761E9FF0B400A9A782 /* Sources */,
 				0402A3771E9FF0B400A9A782 /* Frameworks */,
 				0402A3781E9FF0B400A9A782 /* Resources */,
+				2A9F7A30D07ED583CFBFE2D8 /* [CP] Embed Pods Frameworks */,
+				1E07F199E7DCD10D7824AFE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0402A3941E9FF0B400A9A782 /* Build configuration list for PBXNativeTarget "hairCalendarUITests" */;
 			buildPhases = (
+				6C4F2998EE6DB7F2876F4AA6 /* [CP] Check Pods Manifest.lock */,
 				0402A3811E9FF0B400A9A782 /* Sources */,
 				0402A3821E9FF0B400A9A782 /* Frameworks */,
 				0402A3831E9FF0B400A9A782 /* Resources */,
+				31E28527810C99FFAFC4EEC5 /* [CP] Embed Pods Frameworks */,
+				985977503E63957027593E89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +312,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E07F199E7DCD10D7824AFE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hairCalendarTests/Pods-hairCalendarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29DB74A45B2E03400C6CD094 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hairCalendar/Pods-hairCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A9F7A30D07ED583CFBFE2D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hairCalendarTests/Pods-hairCalendarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31E28527810C99FFAFC4EEC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hairCalendarUITests/Pods-hairCalendarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31FCE6BAD16B0F737C88C75D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C4F2998EE6DB7F2876F4AA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		985977503E63957027593E89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hairCalendarUITests/Pods-hairCalendarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6348219187B28C00E38A26F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD980DD6EA651308BDA0832F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hairCalendar/Pods-hairCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0402A35F1E9FF0B400A9A782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +457,7 @@
 			files = (
 				0402A3691E9FF0B400A9A782 /* ViewController.swift in Sources */,
 				0402A36F1E9FF0B400A9A782 /* hairCalendar.xcdatamodeld in Sources */,
+				0402A39A1E9FF59300A9A782 /* CustomCell.swift in Sources */,
 				0402A3671E9FF0B400A9A782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +610,7 @@
 		};
 		0402A38F1E9FF0B400A9A782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD4CF73B635ED77BBA3E306 /* Pods-hairCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 78ZLWACEYX;
@@ -432,6 +624,7 @@
 		};
 		0402A3901E9FF0B400A9A782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6082B9DDADFD70B34A2332F /* Pods-hairCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 78ZLWACEYX;
@@ -445,6 +638,7 @@
 		};
 		0402A3921E9FF0B400A9A782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED0A4F4DF3ECA17876163B8 /* Pods-hairCalendarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +654,7 @@
 		};
 		0402A3931E9FF0B400A9A782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBCDB2D02EFCE395C9EFB10 /* Pods-hairCalendarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +670,7 @@
 		};
 		0402A3951E9FF0B400A9A782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9151E1B4EB649BA1E6427737 /* Pods-hairCalendarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 78ZLWACEYX;
@@ -489,6 +685,7 @@
 		};
 		0402A3961E9FF0B400A9A782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D89FDDC838CFDB34A5BD7E2 /* Pods-hairCalendarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 78ZLWACEYX;
@@ -520,6 +717,7 @@
 				0402A3901E9FF0B400A9A782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0402A3911E9FF0B400A9A782 /* Build configuration list for PBXNativeTarget "hairCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +726,7 @@
 				0402A3931E9FF0B400A9A782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0402A3941E9FF0B400A9A782 /* Build configuration list for PBXNativeTarget "hairCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +735,7 @@
 				0402A3961E9FF0B400A9A782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
